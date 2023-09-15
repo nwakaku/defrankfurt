@@ -4,7 +4,7 @@ import homepic from "./images/homeSec.jpg";
 const HomeSection = () => {
   return (
     <section
-      className="h-max bg-cover bg-center flex flex-col justify-center border-b-10 circler"
+      className="h-max p-4 bg-cover bg-center flex flex-col justify-center border-b-10 circler"
       style={{
         backgroundImage:
           'url("https://bafybeihnmjh6hxouhelyqts5b4yvjpua5ymrzmd7ou2yick5musshbw47a.ipfs.w3s.link/homeSec.jpg")',
