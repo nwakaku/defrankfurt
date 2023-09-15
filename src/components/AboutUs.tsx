@@ -21,7 +21,7 @@ const AboutUs = () => {
         <h2 className="text-5xl text-gray-100 text-center font-bold absolute top-0 left-2 right-2 -z-1">
           OUR MISSION
         </h2>
-        <h2 className="text-4xl text-[#676767] font-bold text-center mt-5 relative mb-4">
+        <h2 className="text-4xl text-[#676767] font-bold text-center mt-6 relative mb-4">
           OUR MISSION.
         </h2>
         <p className="text-gray-800 ">
@@ -32,7 +32,7 @@ const AboutUs = () => {
         <h2 className="text-5xl text-gray-100 text-center font-bold absolute top-0 left-2 right-2 -z-1">
           OUR VISION
         </h2>
-        <h2 className="text-4xl text-[#676767] font-bold text-center mt-5 relative mb-4">
+        <h2 className="text-4xl text-[#676767] font-bold text-center mt-6 relative mb-4">
           OUR VISION.
         </h2>
         <p className="text-gray-800 ">

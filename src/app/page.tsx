@@ -1,6 +1,7 @@
 import AboutUs from '@/components/AboutUs'
 import HomeSection from '@/components/HomeSection'
 import Navbar from '@/components/NavBar'
+import OurService from '@/components/OurService'
 import Image from 'next/image'
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar/>
       <HomeSection/>
       <AboutUs/>
+      <OurService/>
     </div>
   )
 }
