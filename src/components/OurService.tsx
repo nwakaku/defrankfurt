@@ -26,8 +26,8 @@ const OurService = () => {
               <li className="mb-4 flex font-bold">
                 <Image
                   src={approve}
-                  height={20}
-                  width={20}
+                  height={28}
+                  width={28}
                   alt="approve"
                   className="mr-2"
                 />
@@ -36,8 +36,8 @@ const OurService = () => {
               <li className="mb-4 flex font-bold">
                 <Image
                   src={approve}
-                  height={20}
-                  width={20}
+                  height={28}
+                  width={28}
                   alt="approve"
                   className="mr-2"
                 />
@@ -46,8 +46,8 @@ const OurService = () => {
               <li className="mb-4 flex font-bold">
                 <Image
                   src={approve}
-                  height={20}
-                  width={20}
+                  height={28}
+                  width={28}
                   alt="approve"
                   className="mr-2"
                 />
@@ -56,8 +56,8 @@ const OurService = () => {
               <li className="mb-4 flex font-bold">
                 <Image
                   src={approve}
-                  height={20}
-                  width={20}
+                  height={28}
+                  width={28}
                   alt="approve"
                   className="mr-2"
                 />
@@ -70,8 +70,8 @@ const OurService = () => {
               <li className="mb-4 flex font-bold">
                 <Image
                   src={approve}
-                  height={20}
-                  width={20}
+                  height={28}
+                  width={28}
                   alt="approve"
                   className="mr-2"
                 />
@@ -80,8 +80,8 @@ const OurService = () => {
               <li className="mb-4 flex font-bold">
                 <Image
                   src={approve}
-                  height={20}
-                  width={20}
+                  height={28}
+                  width={28}
                   alt="approve"
                   className="mr-2"
                 />
@@ -90,8 +90,8 @@ const OurService = () => {
               <li className="mb-4 flex font-bold">
                 <Image
                   src={approve}
-                  height={20}
-                  width={20}
+                  height={28}
+                  width={28}
                   alt="approve"
                   className="mr-2"
                 />
@@ -100,8 +100,8 @@ const OurService = () => {
               <li className="mb-4 flex font-bold">
                 <Image
                   src={approve}
-                  height={20}
-                  width={20}
+                  height={28}
+                  width={28}
                   alt="approve"
                   className="mr-2"
                 />

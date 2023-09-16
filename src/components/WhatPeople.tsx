@@ -16,9 +16,9 @@ const WhatPeople = () => {
         <div className="md:flex md:space-x-8 ">
           <div className="flex-col bg-[#E6E6E6] p-12 space-y-4 text-center mb-2 rounded-3xl">
             <p>
-              "We've been using DeFrankFurt Global for years, and they never
+              We have been using DeFrankFurt Global for years, and they never
               disappoint. Their steel rods are of the highest quality, and their
-              service is outstanding."
+              service is outstanding.
             </p>
             <p className="bg-[#090C35] p-2 rounded-full text-white">
               - Olusegun, Contractor
@@ -26,9 +26,9 @@ const WhatPeople = () => {
           </div>
           <div className="flex-col bg-[#E6E6E6] p-12 space-y-4 text-center mb-2 rounded-3xl">
             <p>
-              "Thanks to DeFrankFurt Global, our roofing project turned out
+              Thanks to DeFrankFurt Global, our roofing project turned out
               perfect. The iron sheets they supplied were exceptional, and their
-              support was invaluable."
+              support was invaluable.
             </p>
             <p className="bg-[#090C35] p-2 rounded-full text-white ">
               {" "}
