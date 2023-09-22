@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   icons: iconsData,
   openGraph: openGraph,
   alternates: {
-    canonical: `https://www.defrankfurtglobal.com`,
+    canonical: "https://www.defrankfurtglobal.com",
   },
   verification: {
     google: "google-site-verification="
