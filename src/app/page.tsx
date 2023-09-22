@@ -5,8 +5,11 @@ import HomeSection from "@/components/HomeSection";
 import Navbar from "@/components/NavBar";
 import OurService from "@/components/OurService";
 import WhatPeople from "@/components/WhatPeople";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
 export default function Home() {
+
   const jsonLd = {
     "@context": "http://schema.org",
     "@type": "WebPage",
