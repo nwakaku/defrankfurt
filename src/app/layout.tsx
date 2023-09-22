@@ -29,6 +29,12 @@ export const metadata: Metadata = {
     "DeFrankFurt Global: Your Trusted Source for Top-Quality Steel Rods and Iron Sheets in Nigeria. With a commitment to quality, integrity, and sustainability, we are your go-to partner for all your construction material needs. Contact us today for expert guidance and timely delivery.",
   icons: iconsData,
   openGraph: openGraph,
+  alternates: {
+    canonical: `https://defrankfurtglobal.com`,
+  },
+  verification: {
+    google: "google-site-verification="
+  }
 };
 
 export default function RootLayout({

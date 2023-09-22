@@ -17,7 +17,7 @@ const OurService = () => {
     >
       <div className="flex-col items-center space-y-8">
         <div className="text-xl text-gray-600 text-center p-1 relative">
-          <h2 className="text-4xl md:text-7xl text-gray-100 font-bold absolute top-0 left-2 right-2 -z-1">
+          <h2 className="hidden lg:block text-4xl md:text-7xl text-gray-100 font-bold absolute top-0 left-2 right-2 -z-1">
             OUR SERVICES
           </h2>
           <h2 className="text-3xl md:text-6xl text-[#676767] mt-8 font-bold mb-4 relative ">
