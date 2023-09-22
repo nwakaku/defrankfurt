@@ -13,7 +13,7 @@ const iconsData: IconURL =
 
 const openGraph: OpenGraph = {
       type: "website",
-      url: "https://defrankfurtglobal.com/",
+      url: "https://www.defrankfurtglobal.com/",
       title: "Premium Steel Rods and Iron Sheets Supplier in Nigeria | DeFrankFurt Global",
       description: "DeFrankFurt Global: Your Trusted Source for Top-Quality Steel Rods and Iron Sheets in Nigeria. With a commitment to quality, integrity, and sustainability, we are your go-to partner for all your construction material needs. Contact us today for expert guidance and timely delivery.",
       siteName: "DeFrankFurt Global",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   icons: iconsData,
   openGraph: openGraph,
   alternates: {
-    canonical: `https://defrankfurtglobal.com`,
+    canonical: `https://www.defrankfurtglobal.com`,
   },
   verification: {
     google: "google-site-verification="

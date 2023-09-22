@@ -16,7 +16,7 @@ export default function Home() {
     name: "About Us Page",
     description:
       "Information about DeFrankFurt Global and its mission and vision",
-    url: "http://defrankfurtglobal.com",
+    url: "https://www.defrankfurtglobal.com/",
     mainEntityOfPage: {
       "@type": "AboutPage",
       name: "About DeFrankFurt Global",
@@ -26,7 +26,7 @@ export default function Home() {
       "@type": "Organization",
       name: "DeFrankFurt Global",
       description: "Top-quality steel rods and iron sheets supplier",
-      url: "http://defrankfurtglobal.com",
+      url: "https://www.defrankfurtglobal.com/",
       logo: "https://bafybeidgj5wql5ko4b3bldr3ldgupgexohhatp5gbpbc6mm4hqxhlrfoxm.ipfs.w3s.link/DeFrankfurt%20Global%20icon.png",
     },
   };
