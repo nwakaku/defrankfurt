@@ -2,13 +2,19 @@ import React from "react";
 
 const WhatPeople = () => {
   return (
-    <section className="py-12">
+    <section
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="80"
+      data-aos-duration="1200"
+      className="py-12"
+    >
       <div className="container mx-auto px-6 md:px-12 lg:px-24 xl:px-36 flex flex-col items-center space-y-8">
         <div className="text-xl text-gray-600 text-center p-2 my-4 relative">
           <h2 className="text-4xl md:text-7xl text-gray-100 font-bold absolute top-0 left-2 right-2 -z-1">
             What Do People Say
           </h2>
-          <h2 className="text-3xl md:text-6xl text-[#676767] mt-8 font-bold mb-4 relative z-10">
+          <h2 className="text-3xl md:text-6xl text-[#676767] mt-8 font-bold mb-4 relative ">
             What Do People Say.
           </h2>
         </div>

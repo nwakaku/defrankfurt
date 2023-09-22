@@ -4,14 +4,23 @@ import approve from "./images/approved.png";
 import backi from "./images/backi.png";
 
 const OurService = () => {
+  // Define Schema markup for the products/services
+
   return (
-    <section className="bg-[#E9E9E9] pt-4 border-t-12 rounded-t-3xl circle">
+    <section
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="80"
+      data-aos-duration="1200"
+      id="services"
+      className="bg-[#E9E9E9] pt-4 border-t-12 rounded-t-3xl circle"
+    >
       <div className="flex-col items-center space-y-8">
         <div className="text-xl text-gray-600 text-center p-1 relative">
           <h2 className="text-4xl md:text-7xl text-gray-100 font-bold absolute top-0 left-2 right-2 -z-1">
             OUR SERVICES
           </h2>
-          <h2 className="text-3xl md:text-6xl text-[#676767] mt-8 font-bold mb-4 relative z-10">
+          <h2 className="text-3xl md:text-6xl text-[#676767] mt-8 font-bold mb-4 relative ">
             OUR SERVICES.
           </h2>
           <p className="text-gray-800 text-center mb-9">
@@ -23,7 +32,7 @@ const OurService = () => {
         <div className="flex justify-center md:space-x-12 sm:space-x-6 flex-wrap md:flex-nowrap">
           <div className="mr-4 mb-4 md:mb-0">
             <ul className="list">
-              <li className="mb-4 flex font-bold">
+              <li className="mb-4 flex items-center font-bold">
                 <Image
                   src={approve}
                   height={28}
@@ -33,7 +42,7 @@ const OurService = () => {
                 />
                 Rods
               </li>
-              <li className="mb-4 flex font-bold">
+              <li className="mb-4 flex items-center font-bold">
                 <Image
                   src={approve}
                   height={28}
@@ -43,7 +52,7 @@ const OurService = () => {
                 />
                 Flat Sheets
               </li>
-              <li className="mb-4 flex font-bold">
+              <li className="mb-4 flex items-center font-bold">
                 <Image
                   src={approve}
                   height={28}
@@ -53,7 +62,7 @@ const OurService = () => {
                 />
                 Angle iron
               </li>
-              <li className="mb-4 flex font-bold">
+              <li className="mb-4 flex items-center justify-center font-bold">
                 <Image
                   src={approve}
                   height={28}
@@ -67,7 +76,7 @@ const OurService = () => {
           </div>
           <div>
             <ul className="list">
-              <li className="mb-4 flex font-bold">
+              <li className="mb-4 flex items-center font-bold">
                 <Image
                   src={approve}
                   height={28}
@@ -77,7 +86,7 @@ const OurService = () => {
                 />
                 Round Pipes
               </li>
-              <li className="mb-4 flex font-bold">
+              <li className="mb-4 flex items-center font-bold">
                 <Image
                   src={approve}
                   height={28}
@@ -87,7 +96,7 @@ const OurService = () => {
                 />
                 Binding Wire
               </li>
-              <li className="mb-4 flex font-bold">
+              <li className="mb-4 flex items-center font-bold">
                 <Image
                   src={approve}
                   height={28}
@@ -97,7 +106,7 @@ const OurService = () => {
                 />
                 Universal Beam
               </li>
-              <li className="mb-4 flex font-bold">
+              <li className="mb-4 flex items-center font-bold">
                 <Image
                   src={approve}
                   height={28}

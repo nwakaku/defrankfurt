@@ -3,22 +3,46 @@
 import Link from "next/link";
 import logo from "./images/logo.png";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [currentSection, setCurrentSection] = useState<string | null>("");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section");
+      let current = "" as string|| null;
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        if (window.scrollY >= sectionTop - 60) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      setCurrentSection(current);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   // Function to toggle mobile menu
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <nav
       className={`${
         isOpen ? "py-4 bg-black" : "py-4"
       } transition-all duration-300 ease-in-out`}
     >
-      <div className="container mx-auto flex flex-row space-x-2 items-center relative">
+      <div className="mx-4 lg:mx-20 flex flex-row space-x-2 items-center relative">
         <div className="logo flex-1">
           <Link href="/">
             <Image src={logo} width={200} height={20} alt="Logo" />
@@ -56,16 +80,28 @@ const Navbar = () => {
             isOpen
               ? "block bg-black text-white fixed top-0 left-0 h-screen w-screen flex flex-col justify-evenly items-center"
               : "hidden"
-          } lg:flex lg:justify-around lg:flex-1 lg:space-x-12 mt-4 lg:mt-0 font-bold z-10`}
+          }  lg:flex lg:justify-around lg:flex-1 lg:space-x-2 mt-4 lg:mt-0 font-bold z-10 `}
         >
-          <li className="hover:text-blue-200">
-            <Link href="/about">About</Link>
+          <li
+            className={`hover:text-blue-200 ${
+              currentSection === "about" ? "active" : ""
+            }`}
+          >
+            <a href="#about">ABOUT</a>
           </li>
-          <li className="hover:text-blue-200">
-            <Link href="/services">Services</Link>
+          <li
+            className={`hover:text-blue-200 ${
+              currentSection === "services" ? "active" : ""
+            }`}
+          >
+            <a href="#services">SERVICES</a>
           </li>
-          <li className="hover:text-blue-200">
-            <Link href="/contact">Contact</Link>
+          <li
+            className={`hover:text-blue-200 ${
+              currentSection === "contact" ? "active" : ""
+            }`}
+          >
+            <a href="#contact">CONTACT</a>
           </li>
           {isOpen && (
             <li className="lg:hidden" onClick={toggleMenu}>
