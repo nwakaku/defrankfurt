@@ -1,3 +1,5 @@
+"use client"
+
 import AboutUs from "@/components/AboutUs";
 import ChooseUs from "@/components/ChooseUs";
 import Footer from "@/components/Footer";
@@ -5,10 +7,17 @@ import HomeSection from "@/components/HomeSection";
 import Navbar from "@/components/NavBar";
 import OurService from "@/components/OurService";
 import WhatPeople from "@/components/WhatPeople";
-// import Aos from "aos";
-// import "aos/dist/aos.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 export default function Home() {
+  useEffect(() => {
+      Aos.init({
+        disable: false
+      });
+  }, [])
 
   const jsonLd = {
     "@context": "http://schema.org",

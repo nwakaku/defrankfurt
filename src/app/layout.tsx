@@ -5,7 +5,10 @@ import { OpenGraph } from "next/dist/lib/metadata/types/opengraph-types";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 
+
 const inter = Inter({ subsets: ["vietnamese"] });
+
+
 
 // Define your icon data conforming to the Icons type
 const iconsData: IconURL =
